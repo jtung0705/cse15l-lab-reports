@@ -1,11 +1,13 @@
 # cd commands
 > cd (no arguments)
-> 
+
 ``` d```
 
 > cd directory
+
 ``` s ```
 > cd file
+
 ```
 [user@sahara ~/lecture1/messages]$ cd zh-cn.txt
 bash: cd: zh-cn.txt: Not a directory
