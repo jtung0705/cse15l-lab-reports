@@ -1,7 +1,9 @@
 # cd commands
 > cd (no arguments)
 
-``` d```
+```[user@sahara ~]$ cd lecture1
+[user@sahara ~/lecture1]$ cd messages
+[user@sahara ~/lecture1/messages]$ ```
 
 > cd directory
 
