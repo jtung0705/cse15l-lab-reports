@@ -1,5 +1,6 @@
 # cd commands
-> cd (no arguements)
+> cd (no arguments)
+> 
 ``` d```
 
 > cd directory
