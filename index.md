@@ -8,7 +8,10 @@
 
 > cd directory
 
-``` s ```
+```
+[user@sahara ~]$ cd lecture1
+[user@sahara ~/lecture1]$
+ ```
 > cd file
 
 ```
