@@ -1,16 +1,20 @@
 # cd commands
-```cd ```
-s
+```cd (no arguements)```
+``` cd directory```
+
+``` cd file```
+[user@sahara ~/lecture1/messages]$ cd zh-cn.txt
+bash: cd: zh-cn.txt: Not a directory
 -------------------
 
 # ls commands
 ```s ```
-s
+
 ---------------
 
 # cat commands
 ``` s```
----------
+
 
  
 For each of the commands cd, ls, and cat, and using the workspace you created in this lab:
