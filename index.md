@@ -21,13 +21,42 @@ bash: cd: zh-cn.txt: Not a directory
 -------------------
 
 # ls commands
-```s ```
+> ls (no arguments)
+
+```
+placeholder
+```
+
+> ls directory
+
+```
+placeholder
+```
+> ls file
+
+```
+placeholder
+```
 
 ---------------
 
 # cat commands
-``` s```
+> cat (no arguments)
 
+```
+placeholder
+```
+
+> cat directory
+
+```
+placeholder
+```
+> cat file
+
+```
+placeholder
+```
 
  
 For each of the commands cd, ls, and cat, and using the workspace you created in this lab:
