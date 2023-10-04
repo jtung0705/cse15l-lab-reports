@@ -27,19 +27,25 @@ I got this output because if you type ``cd [file]``, you cannot change directory
 > ls (no arguments)
 
 ```
-placeholder
+[user@sahara ~/lecture1/messages]$ ls
+en-us.txt  es-mx.txt  fr-ca.txt  zh-cn.txt
 ```
+I get this because if you type ``ls``, you just get what is in the directory there and it lists it. Not an error.
 
 > ls directory
 
 ```
-placeholder
+[user@sahara ~]$ ls lecture1/messages
+en-us.txt  es-mx.txt  fr-ca.txt  zh-cn.txt
 ```
+I get this because it just lists whatever files are in the directory. Not an error.
 > ls file
 
 ```
-placeholder
+[user@sahara ~/lecture1/messages]$ ls en-us.txt
+en-us.txt
 ```
+It just shows the file name again, nothing else. Not an error.
 
 ---------------
 
