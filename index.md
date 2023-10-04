@@ -5,19 +5,22 @@
 [user@sahara ~/lecture1/messages]$ cd
 [user@sahara ~]$ 
 ```
-
+I got the output because if you type ``cd`` without any parameters, I believe it would go to the home directory. This output is not an error.
 > cd directory
 
 ```
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
  ```
+I got this output because if you type ``cd [directory]``, it will change directory to the location. Not an error.
 > cd file
 
 ```
 [user@sahara ~/lecture1/messages]$ cd zh-cn.txt
 bash: cd: zh-cn.txt: Not a directory
 ```
+I got this output because if you type ``cd [file]``, you cannot change directory to a file. The error is because it is not a directory.
+
 -------------------
 
 # ls commands
