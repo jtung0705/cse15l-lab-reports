@@ -53,8 +53,10 @@ It just shows the file name again, nothing else. Not an error.
 > cat (no arguments)
 
 ```
-placeholder
+[user@sahara ~/lecture1/messages]$ cat
+
 ```
+This just took me out of home directory, no problems.
 
 > cat directory
 
