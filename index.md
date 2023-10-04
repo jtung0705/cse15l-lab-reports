@@ -2,9 +2,8 @@
 > cd (no arguments)
 
 ```
-[user@sahara ~]$ cd lecture1
-[user@sahara ~/lecture1]$ cd messages
-[user@sahara ~/lecture1/messages]$
+[user@sahara ~/lecture1/messages]$ cd
+[user@sahara ~]$ 
 ```
 
 > cd directory
