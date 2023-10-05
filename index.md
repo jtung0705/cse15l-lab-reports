@@ -66,6 +66,7 @@ cat: lecture1: Is a directory
 ```
 This returns an error because you can only use cat to list files. The error is that it tells you it is a directory.
 > cat file
+
 ```
 [user@sahara ~/lecture1/messages]$ cat en-us.txt
 Hello World!
