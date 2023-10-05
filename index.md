@@ -59,6 +59,7 @@ It just shows the file name again, nothing else. Not an error.
 ```
 This just took me out of home directory, no problems.
 > cat directory
+> 
 ```
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
