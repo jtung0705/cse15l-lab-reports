@@ -65,6 +65,7 @@ This just took me out of home directory, no problems.
 cat: lecture1: Is a directory
 ```
 This returns an error because you can only use cat to list files. The error is that it tells you it is a directory.
+
 > cat file
 
 ```
