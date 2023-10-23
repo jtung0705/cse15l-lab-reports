@@ -36,6 +36,7 @@ class StringServer {
 ![Image](LabReport2_StringServer.png)
 
 > two screenshots of using ``/add-message``
+
 ![Image](LabReport2_add-message1.png)
 >Which methods in your code are called?
 >What are the relevant arguments to those methods, and the values of any relevant fields of the class?
