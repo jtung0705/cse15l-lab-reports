@@ -34,10 +34,15 @@ class StringServer {
     }
 }
 ```
+
 ![Image](LabReport2_StringServer.png)
 
+>and two screenshots of using ``/add-message``
 
 ![Image](LabReport2_add-message1.png)
+
+
+
 >Which methods in your code are called?
 
 The handler method and StringServer methods are called.
