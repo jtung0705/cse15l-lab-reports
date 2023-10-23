@@ -5,20 +5,23 @@
 [user@sahara ~/lecture1/messages]$ cd
 [user@sahara ~]$ 
 ```
-I got the output because if you type ``cd`` without any parameters, I believe it would go to the home directory. This output is not an error.
+working directory was /home/lecture1/messages, and after running became /home/
+I got the output because if you type ``cd`` without any parameters, I believe it would go to the home directory. This output is not an error. 
 > cd directory
 
 ```
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
  ```
-I got this output because if you type ``cd [directory]``, it will change directory to the location. Not an error.
+working directory was /home/, and after running was /home/lecture1
+I got this output because if you type ``cd [directory]``, it will change to the directory you mentioned in the command. Not an error.
 > cd file
 
 ```
 [user@sahara ~/lecture1/messages]$ cd zh-cn.txt
 bash: cd: zh-cn.txt: Not a directory
 ```
+working directory is /home/lecture1/messages, and is the same after at /home/lecture1/messages
 I got this output because if you type ``cd [file]``, you cannot change directory to a file. The error is because it is not a directory.
 
 -------------------
@@ -30,7 +33,9 @@ I got this output because if you type ``cd [file]``, you cannot change directory
 [user@sahara ~/lecture1/messages]$ ls
 en-us.txt  es-mx.txt  fr-ca.txt  zh-cn.txt
 ```
-I get this because if you type ``ls``, you just get what is in the directory there and it lists it. Not an error.
+working directory before: /home/lecture1/messages
+working directory after running command: /home/lecture1/messages
+I get this because if you type ``ls``, you just get what file names are in the directory there (but not the content) along with the directories names in it (but not what is inside the subdirectories), even if they have or don't have files. Not an error.
 
 > ls directory
 
@@ -38,13 +43,17 @@ I get this because if you type ``ls``, you just get what is in the directory the
 [user@sahara ~]$ ls lecture1/messages
 en-us.txt  es-mx.txt  fr-ca.txt  zh-cn.txt
 ```
-I get this because it just lists whatever files are in the directory. Not an error.
+working directory before: /home
+working directory after running command: /home
+I get this because it just lists whatever files and sub-directories are in the directory. Not an error since there are only txt files.
 > ls file
 
 ```
 [user@sahara ~/lecture1/messages]$ ls en-us.txt
 en-us.txt
 ```
+working directory before: /home/lecture1/messages
+working directory after running command: /home/lecture1/messages
 It just shows the file name again, nothing else. Not an error.
 
 ---------------
@@ -56,29 +65,28 @@ It just shows the file name again, nothing else. Not an error.
 [user@sahara ~/lecture1/messages]$ cat
 
 ```
-This just took me out of home directory, no problems.
+working directory before: /home/lecture1/messages
+working directory after running command: /home/lecture1/messages
+This just took me out of home directory, no problems. I used Ctrl + C to exit the mode since it interrupts. The ``cat`` command was waiting for an input because its meant to concatenate
 
 > cat directory
 
 ```
-placeholder
+[user@sahara ~]$ cat lecture1
+cat: lecture1: Is a directory
 ```
+working directory before: /home
+working directory after running command: /home
+This returns an error because you can only use cat to show the contents of a file (like if it was a txt file, it shows the text). The error is that it tells you it is a
+directory.
+
 > cat file
 
 ```
-placeholder3232
+[user@sahara ~/lecture1/messages]$ cat en-us.txt
+Hello World!
 ```
-
+working directory before: /home/lecture1/messages
+working directory after running command: /home/lecture1/messages
+This shows me what is inside a file, in this case the en-us.txt. No error.
  
-For each of the commands cd, ls, and cat, and using the workspace you created in this lab:
-
-Share an example of using the command with no arguments.
-Share an exmaple of using the command with a path to a directory as an argument.
-Share an example of using the command with a path to a file as an argument.
-So that’s 9 total examples (3 for each command). For each, include:
-
-- A screenshot or Markdown code block showing the command and its output
-- What the working directory was when the command was run
-- A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
-
