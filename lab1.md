@@ -6,6 +6,7 @@
 [user@sahara ~]$ 
 ```
 working directory was /home/lecture1/messages, and after running became /home/
+
 I got the output because if you type ``cd`` without any parameters, I believe it would go to the home directory. This output is not an error. 
 > cd directory
 
@@ -14,6 +15,7 @@ I got the output because if you type ``cd`` without any parameters, I believe it
 [user@sahara ~/lecture1]$
  ```
 working directory was /home/, and after running was /home/lecture1
+
 I got this output because if you type ``cd [directory]``, it will change to the directory you mentioned in the command. Not an error.
 > cd file
 
@@ -22,6 +24,7 @@ I got this output because if you type ``cd [directory]``, it will change to the 
 bash: cd: zh-cn.txt: Not a directory
 ```
 working directory is /home/lecture1/messages, and is the same after at /home/lecture1/messages
+
 I got this output because if you type ``cd [file]``, you cannot change directory to a file. The error is because it is not a directory.
 
 -------------------
@@ -34,7 +37,9 @@ I got this output because if you type ``cd [file]``, you cannot change directory
 en-us.txt  es-mx.txt  fr-ca.txt  zh-cn.txt
 ```
 working directory before: /home/lecture1/messages
+
 working directory after running command: /home/lecture1/messages
+
 I get this because if you type ``ls``, you just get what file names are in the directory there (but not the content) along with the directories names in it (but not what is inside the subdirectories), even if they have or don't have files. Not an error.
 
 > ls directory
@@ -44,7 +49,9 @@ I get this because if you type ``ls``, you just get what file names are in the d
 en-us.txt  es-mx.txt  fr-ca.txt  zh-cn.txt
 ```
 working directory before: /home
+
 working directory after running command: /home
+
 I get this because it just lists whatever files and sub-directories are in the directory. Not an error since there are only txt files.
 > ls file
 
@@ -53,7 +60,9 @@ I get this because it just lists whatever files and sub-directories are in the d
 en-us.txt
 ```
 working directory before: /home/lecture1/messages
+
 working directory after running command: /home/lecture1/messages
+
 It just shows the file name again, nothing else. Not an error.
 
 ---------------
@@ -66,7 +75,9 @@ It just shows the file name again, nothing else. Not an error.
 
 ```
 working directory before: /home/lecture1/messages
+
 working directory after running command: /home/lecture1/messages
+
 This just took me out of home directory, no problems. I used Ctrl + C to exit the mode since it interrupts. The ``cat`` command was waiting for an input because its meant to concatenate
 
 > cat directory
@@ -76,7 +87,9 @@ This just took me out of home directory, no problems. I used Ctrl + C to exit th
 cat: lecture1: Is a directory
 ```
 working directory before: /home
+
 working directory after running command: /home
+
 This returns an error because you can only use cat to show the contents of a file (like if it was a txt file, it shows the text). The error is that it tells you it is a
 directory.
 
