@@ -1,5 +1,7 @@
 ## PART 1
 > Show the code for your ``StringServer``
+
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -37,7 +39,9 @@ class StringServer {
 
 ![Image](LabReport2_StringServer.png)
 
+
 >and two screenshots of using ``/add-message``
+
 
 ![Image](LabReport2_add-message1.png)
 
@@ -47,6 +51,7 @@ class StringServer {
 
 The handler method and StringServer methods are called.
 
+
 >What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
 Arguments: "jeffery tung"
@@ -54,18 +59,29 @@ Fields:
 int num = 5
 String h would have the numbers from 0 to the current number and the string I've added.
  
+
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
 
 The values of the field for Handler gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put my name (string), ``jeffery tung``, and it put a ``+`` between the spaces and was attached to the String h. Also the ``num`` variable is incremented by one so we can keep track of the amount.
 
+
 >and two screenshots of using /add-message
 
+
 ![Image](LabReport2_add-message2.png)
+
+
 >Which methods in your code are called?
+
 
 The handler method and StringServer methods are called.
 
+
+
 >What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
+
 
 Arguments: "num is incremented"
 Fields:
@@ -73,14 +89,19 @@ int num = 6
 String h would have the numbers from 0 to the current number and the string I've added.
  
 
+
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
 
 The values of the field for Handler gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put (string) ``num is incremented``, and it put a ``+`` in between the spaces and was attached to the String h. Also the ``num`` variable is incremented by one so we can keep track of the amount.
 
 ## PART 2
 
 
+
 >The path to the private key for your SSH key for logging into ieng6
+
+
 
 ![Image](LabReport2PrivKey.png) 
 
@@ -94,7 +115,10 @@ $ pwd
 /c/Users/justj/.ssh
 ```
 
+
 >The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+
+
 
 ![Image](LabReport2PubKey.png)
 
@@ -105,7 +129,10 @@ authorized_keys
 /home/linux/ieng6/cs15lfa23/cs15lfa23qv/.ssh
 ```
 
+
 >A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+
+
 
 ![Image](LabReport2.png) 
 
