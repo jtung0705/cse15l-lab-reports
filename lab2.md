@@ -1,1 +1,1 @@
-![image](Lab Report 2.png)
+![Image](Lab Report 2.png)
