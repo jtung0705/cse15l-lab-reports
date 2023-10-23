@@ -84,7 +84,9 @@ working directory before: /home/lecture1/messages
 
 working directory after running command: /home/lecture1/messages
 
-This just took me out of home directory, no problems. I used Ctrl + C to exit the mode since it interrupts. The ``cat`` command was waiting for an input because its meant to concatenate so that is why when you type again, it outputs the same string because you are concatening a empty string with the string you typed
+This just took me out of home directory, no problems. I used Ctrl + C to exit the mode since it interrupts. The ``cat`` command was waiting for an input 
+
+cat is meant to concatenate but in this case, it outputs the same string because it takes your keyboard as a input
 
 > cat directory
 
