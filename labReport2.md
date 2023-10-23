@@ -39,18 +39,28 @@ class StringServer {
 
 ![Image](LabReport2_add-message1.png)
 >Which methods in your code are called?
+
 The handler method and StringServer methods are called.
+
 >What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
 The method that is called is ``/add-message`` and ``s=<string>``.
+
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
 The values of the field for Handler gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put my name (string), ``jeffery tung``, and it put a ``+`` between the spaces.
 
 ![Image](LabReport2_add-message2.png)
 >Which methods in your code are called?
+
 The handler method and StringServer methods are called.
+
 >What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
 The method that is called is ``/add-message`` and ``s=<string>``.
+
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
 The values of the field for Handler gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put (string) ``num is incremented``, and it put a ``+`` in between the spaces.
 
 ## PART 2
