@@ -5,7 +5,9 @@
 [user@sahara ~/lecture1/messages]$ cd
 [user@sahara ~]$ 
 ```
-working directory was /home/lecture1/messages, and after running became /home/
+working directory was /home/lecture1/messages
+
+after running became /home/
 
 I got the output because if you type ``cd`` without any parameters, I believe it would go to the home directory. This output is not an error. 
 > cd directory
@@ -14,7 +16,9 @@ I got the output because if you type ``cd`` without any parameters, I believe it
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
  ```
-working directory was /home/, and after running was /home/lecture1
+working directory was /home/
+
+after running was /home/lecture1
 
 I got this output because if you type ``cd [directory]``, it will change to the directory you mentioned in the command. Not an error.
 > cd file
@@ -23,7 +27,9 @@ I got this output because if you type ``cd [directory]``, it will change to the 
 [user@sahara ~/lecture1/messages]$ cd zh-cn.txt
 bash: cd: zh-cn.txt: Not a directory
 ```
-working directory is /home/lecture1/messages, and is the same after at /home/lecture1/messages
+working directory is /home/lecture1/messages
+
+after at /home/lecture1/messages
 
 I got this output because if you type ``cd [file]``, you cannot change directory to a file. The error is because it is not a directory.
 
@@ -100,6 +106,8 @@ directory.
 Hello World!
 ```
 working directory before: /home/lecture1/messages
+
 working directory after running command: /home/lecture1/messages
+
 This shows me what is inside a file, in this case the en-us.txt. No error.
  
