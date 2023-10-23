@@ -55,6 +55,8 @@ The method that is called is ``/add-message`` and ``s=<string>``.
 
 The values of the field for Handler gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put my name (string), ``jeffery tung``, and it put a ``+`` between the spaces.
 
+>and two screenshots of using /add-message
+
 ![Image](LabReport2_add-message2.png)
 >Which methods in your code are called?
 
