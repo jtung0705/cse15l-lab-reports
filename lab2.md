@@ -36,6 +36,19 @@ class StringServer {
 ![Image](LabReport2_StringServer.png)
 
 > two screenshots of using ``/add-message``
+![Image](LabReport2_add-message1.png)
+>Which methods in your code are called?
+>What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+>How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+![Image](LabReport2_add-message2.png)
+>Which methods in your code are called?
+>
+>What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+>
+>How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+
 
 
 ![Image](LabReport2.png) < this is because in the space or whatever is %20 in a url so we gotta do %20 >
