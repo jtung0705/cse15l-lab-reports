@@ -46,7 +46,7 @@ working directory before: /home/lecture1/messages
 
 working directory after running command: /home/lecture1/messages
 
-I get this because if you type ``ls``, you just get what file names are in the directory there (but not the content) along with the directories names in it (but not what is inside the subdirectories), even if they have or don't have files. Not an error.
+I get this because if you type ``ls``, you just get what file names and sub directories names is in the current directory (but not what is inside the subdirectories), even if the sub directories have or don't have files. Not an error.
 
 > ls directory
 
@@ -58,7 +58,7 @@ working directory before: /home
 
 working directory after running command: /home
 
-I get this because it just lists whatever files and sub-directories are in the directory. Not an error since there are only txt files.
+I get this because it just lists whatever files and sub-directories are in the directory you gave as a parameter. Not an error since there are only txt files.
 > ls file
 
 ```
@@ -84,7 +84,7 @@ working directory before: /home/lecture1/messages
 
 working directory after running command: /home/lecture1/messages
 
-This just took me out of home directory, no problems. I used Ctrl + C to exit the mode since it interrupts. The ``cat`` command was waiting for an input because its meant to concatenate
+This just took me out of home directory, no problems. I used Ctrl + C to exit the mode since it interrupts. The ``cat`` command was waiting for an input because its meant to concatenate so that is why when you type again, it outputs the same string because you are concatening a empty string with the string you typed
 
 > cat directory
 
@@ -109,5 +109,5 @@ working directory before: /home/lecture1/messages
 
 working directory after running command: /home/lecture1/messages
 
-This shows me what is inside a file, in this case the en-us.txt. No error.
+This shows me what is inside a file, in this case the en-us.txt contains "Hello World!". No error.
  
