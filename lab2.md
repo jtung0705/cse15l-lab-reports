@@ -57,8 +57,8 @@ The method that is called is ``/add-message`` and ``s=<string>``.
 The values of the field for Handler gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put (string) ``num is incremented``, and it put a ``+`` in between the spaces.
 
 
-
-![Image](LabReport2.png) < this is because in the space or whatever is %20 in a url so we gotta do %20 >
+>A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+![Image](LabReport2.png) 
 
 
 >PART 3
