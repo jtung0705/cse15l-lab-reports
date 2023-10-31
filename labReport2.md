@@ -50,8 +50,11 @@ The handler method and StringServer methods are called.
 >What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
 Arguments: "jeffery tung"
+
 Fields:
+
 int num = 5
+
 String h would have the numbers from 0 to the current number and the string I've added.
  
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
