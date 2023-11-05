@@ -1,6 +1,6 @@
 ## PART 1
 > Show the code for your ``StringServer``
-> 
+
 ```
 import java.io.IOException;
 import java.net.URI;
