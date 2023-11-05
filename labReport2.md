@@ -42,7 +42,6 @@ class StringServer {
 ![Image](LabReport2_add-message1.png)
 
 
-
 >Which methods in your code are called?
 
 The String ``handleRequest`` method are called.
@@ -50,11 +49,11 @@ The String ``handleRequest`` method are called.
 >What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
 Arguments:
- "jeffery tung"
+"jeffery tung"
 relevant fields:
-``int num = 5 ;``
-String h would have the numbers from 1 to the current number and the string I've added.
- Example: `` 5. jeffery+tung``;
+``int num = 5;``
+
+``String h``would have the numbers from 1 to the current number and the string for each number that I've added. Also a new line character inbetween it.
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 The values of the field for Handler gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put my name (string), ``jeffery tung``, and it put a ``+`` between the spaces and was attached to the String h. Also the ``num`` variable is incremented by one so we can keep track of the amount.
