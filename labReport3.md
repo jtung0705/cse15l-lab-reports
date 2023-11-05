@@ -5,9 +5,9 @@
 ```
 	@Test 
 	public void testReverseInPlace() {
-    int[] input1 = { 3,5,6,7 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{7,6,5, 3 }, input1);
+    		int[] input1 = { 3,5,6,7 };
+    		ArrayExamples.reverseInPlace(input1);
+    		assertArrayEquals(new int[]{7,6,5, 3 }, input1);
 	} // failure inducing as a JUnit tests
 ```
 
@@ -17,9 +17,9 @@
 ``` 
 	@Test 
 	public void testReverseInPlace() {
-    int[] input1 = { 0 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{0}, input1);
+   		  int[] input1 = { 0 };
+  		  ArrayExamples.reverseInPlace(input1);
+  		  assertArrayEquals(new int[]{0}, input1);
 	}
 ```
 
@@ -32,8 +32,8 @@
 
 ```
     static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
+    	for(int i = 0; i < arr.length; i += 1) {
+      		arr[i] = arr[arr.length - i - 1];
     }
   }
 ```
