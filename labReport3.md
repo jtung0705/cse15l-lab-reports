@@ -314,6 +314,7 @@ HE FOUNDATION OF THE NEW TERRORISM
                 these themes.
 ```
 This command with the ``-s`` lets the file wrap around the terminal to make it a little more readable. It is wrapping the text about the declaration of war to fit in the terminal.
+
 `` [cs15lfa23qv@ieng6-202]:technical:146$ less -s 911report/chapter-5.txt``
 
 ```
