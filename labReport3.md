@@ -60,8 +60,41 @@
 The array was switching in place with itself, but had no way to store the values that it was losing. So when it reversed it, it would only reverse one half of the array and the other half would be mirrored. With this new code, we create a new integer array that first stores all the initial values and then corresponds them accordingly.
 
 ## PART 2
+**SOURCE:** https://www.geeksforgeeks.org/less-command-linux-examples/#
 
-For example, we saw the -name option for find in class. For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
+``[cs15lfa23qv@ieng6-202]:technical:124$ less -n 911report/chapter-1.txt``
+```
+"WE HAVE SOME PLANES"
+Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin  Towers, the signature structures
+```
+Cut off for convenience.
+The command ``-n`` gets rid of the line numbers, which is helpful because if you have a large file, it is just clutter but by using ``-n``, you can get rid of the numbers of each line.
+``[cs15lfa23qv@ieng6-202]:technical:124$ less -n 911report/chapter-2.txt``
+```
+            THE FOUNDATION OF THE NEW TERRORISM
+            A DECLARATION OF WAR
+            In February 1998, the 40-year-old Saudi exile Usama Bin Ladin and a fugitive Egyptian
+                physician, Ayman al Zawahiri, arranged from their Afghan headquarters for an Arabic
+```
+Once again cut off for convenience.
+The command ``-n`` gets rid of the line numbers, which is helpful because if you have a large file, it is just clutter but by using ``-n``, you can get rid of the numbers of each line.
+
+``[cs15lfa23qv@ieng6-202]:technical:129$ less -p "Ladin" 911report/chapter-2.txt``
+
+```
+            In February 1998, the 40-year-old Saudi exile Usama Bin Ladin and a fugitive Egyptian
+                physician, Ayman al Zawahiri, arranged from their Afghan headquarters for an Arabic
+                newspaper in London to publish what they termed a fatwa issued in the name of a
+                "World Islamic Front." A fatwa is normally an interpretation of Islamic law by a
+                respected Islamic authority, but neither Bin Ladin,
+```
+Although I cannot show it in the code block, the command highlighted all instances of the "Ladin" inside the text of the directory of the file i specified. Cut off for convenience.
+Once again cut off for convenience.
+``[cs15lfa23qv@ieng6-202]:technical:132$ less -p "September" 911report/chapter-1.txt``
+```
+Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.
+```
+de block, the command highlighted all instances of the "September" inside the text of the directory of the file I specified. Once again the text output was cut off for convenience.
 
 That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options. Many commands like these have pretty sophisticated behavior possible – it can take years to be exposed to and learn all of the possible tricks and inner workings.
 
