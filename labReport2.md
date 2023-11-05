@@ -55,7 +55,7 @@ relevant fields:
 
 ``int num = 5;``
 
-``String h`` would have the numbers from 1 to the current number and the string for each number that I've added. Also a new line character inbetween it.
+``String h`` would have the number 1 to the current number, and a string for each number then a added new line character.
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 The values of the field for Handler gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put my name, ``jeffery tung``, and it put a ``+`` between the spaces and was attached to ``String h``. Also the ``num`` variable is incremented by one so we can keep track of the amount of strings inputted alreayd.
@@ -77,7 +77,7 @@ Fields:
 
 ``int num = 6``
 
-``String h`` would have the numbers from 0 to the current number, with each number having the string i've put each time before and a new line character between each string and new number.
+``String h`` would have the numbers from 1 to the current number, with each number having the string i've put each time before and a new line character between each string and new number.
  
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
