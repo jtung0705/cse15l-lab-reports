@@ -38,7 +38,6 @@ class StringServer {
 
 ```
 
-
 ![Image](LabReport2_StringServer.png)
 
 >and two screenshots of using ``/add-message``
