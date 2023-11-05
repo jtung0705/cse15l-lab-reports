@@ -44,7 +44,7 @@ class StringServer {
 
 >Which methods in your code are called?
 
-The String ``handleRequest`` method are called.
+The ``handleRequest`` method that returns a ``String`` is called.
 
 >What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
