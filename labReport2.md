@@ -56,7 +56,9 @@ relevant fields:
 ``int num`` is ``5;``
 
 ``String h`` would have the number 1 to the current number, and a string for each number then a added new line character.
-example:
+
+Example:
+
 String h here would contain ``"1. asdjklas\n2.asdjasdasdas\n3.Heyyyyy\n4.First+message\n5.jeffery+tung"``
 
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
