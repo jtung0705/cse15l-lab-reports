@@ -50,11 +50,12 @@ The String ``handleRequest`` method are called.
 
 Arguments:
 ``"jeffery tung"``
+
 relevant fields:
 
 ``int num = 5;``
 
-``String h``would have the numbers from 1 to the current number and the string for each number that I've added. Also a new line character inbetween it.
+``String h`` would have the numbers from 1 to the current number and the string for each number that I've added. Also a new line character inbetween it.
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 The values of the field for Handler gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put my name, ``jeffery tung``, and it put a ``+`` between the spaces and was attached to ``String h``. Also the ``num`` variable is incremented by one so we can keep track of the amount of strings inputted alreayd.
