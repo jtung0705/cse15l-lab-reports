@@ -1,4 +1,4 @@
-##PART 1
+## PART 1
 
 >A failure-inducing input for the buggy program, as a JUnit test and any associated code
 
@@ -28,7 +28,8 @@
 ![LabReport3](LabReport3FailPass.png)
 
 >The bug, as the before-and-after code change required to fix it
->BEFORE
+
+**BEFORE**
 
 ```
     static void reverseInPlace(int[] arr) {
@@ -39,7 +40,8 @@
 ```
 
 >The bug, as the before-and-after code change required to fix it
->AFTER
+
+**AFTER**
 
 ```
  static void reverseInPlace(int[] arr) {
@@ -57,4 +59,4 @@
 
 The array was switching in place with itself, but had no way to store the values that it was losing. So when it reversed it, it would only reverse one half of the array and the other half would be mirrored. With this new code, we create a new integer array that first stores all the initial values and then corresponds them accordingly.
 
-
+## PART 2
