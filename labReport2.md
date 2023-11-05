@@ -53,9 +53,12 @@ Arguments:
 
 relevant fields:
 
-``int num = 5;``
+``int num`` is ``5;``
 
 ``String h`` would have the number 1 to the current number, and a string for each number then a added new line character.
+example:
+String h here would contain ``"1. asdjklas\n2.asdjasdasdas\n3.Heyyyyy\n4.First+message\n5.jeffery+tung"``
+
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 The values of the field for Handler gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put my name, ``jeffery tung``, and it put a ``+`` between the spaces and was attached to ``String h``. Also the ``num`` variable is incremented by one so we can keep track of the amount of strings inputted alreayd.
