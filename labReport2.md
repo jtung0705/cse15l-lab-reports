@@ -44,7 +44,7 @@ class StringServer {
 
 >Which methods in your code are called?
 
-The ``handleRequest`` method that returns a ``String`` is called.
+The ``handleRequest`` method is called.
 
 >What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
@@ -70,10 +70,14 @@ The String ``handleRequest`` method are called.
 >What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
 Arguments: 
-"num is incremented"
+
+``"num is incremented"``
+
 Fields:
-int num = 6
-String h would have the numbers from 0 to the current number, with each number having the string i've put each time before and a new line character between each string and new number.
+
+``int num = 6``
+
+``String h`` would have the numbers from 0 to the current number, with each number having the string i've put each time before and a new line character between each string and new number.
  
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
