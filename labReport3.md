@@ -69,6 +69,7 @@ Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the easter
 ```
 Cut off for convenience.
 The command ``-n`` gets rid of the line numbers, which is helpful because if you have a large file, it is just clutter but by using ``-n``, you can get rid of the numbers of each line.
+
 ``[cs15lfa23qv@ieng6-202]:technical:124$ less -n 911report/chapter-2.txt``
 ```
             THE FOUNDATION OF THE NEW TERRORISM
@@ -90,6 +91,7 @@ The command ``-n`` gets rid of the line numbers, which is helpful because if you
 ```
 Although I cannot show it in the code block, the command highlighted all instances of the "Ladin" inside the text of the directory of the file i specified. Cut off for convenience.
 Once again cut off for convenience.
+
 ``[cs15lfa23qv@ieng6-202]:technical:132$ less -p "September" 911report/chapter-1.txt``
 ```
 Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.
