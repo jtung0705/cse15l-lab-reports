@@ -45,18 +45,16 @@ class StringServer {
 
 >Which methods in your code are called?
 
-The handler method and StringServer methods are called.
+The String ``handleRequest`` method are called.
 
 >What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-Arguments: "jeffery tung"
-
-Fields:
-
-int num = 5
-
-String h would have the numbers from 0 to the current number and the string I've added.
- 
+Arguments:
+ "jeffery tung"
+relevant fields:
+``int num = 5 ;``
+String h would have the numbers from 1 to the current number and the string I've added.
+ Example: `` 5. jeffery+tung``;
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 The values of the field for Handler gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put my name (string), ``jeffery tung``, and it put a ``+`` between the spaces and was attached to the String h. Also the ``num`` variable is incremented by one so we can keep track of the amount.
@@ -66,19 +64,19 @@ The values of the field for Handler gets changed based off of the string that I 
 ![Image](LabReport2_add-message2.png)
 >Which methods in your code are called?
 
-The handler method and StringServer methods are called.
+The String ``handleRequest`` method are called.
 
 >What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-Arguments: "num is incremented"
+Arguments: 
+"num is incremented"
 Fields:
 int num = 6
-String h would have the numbers from 0 to the current number and the string I've added.
+String h would have the numbers from 0 to the current number, with each number having the string i've put each time before and a new line character between each string and new number.
  
-
 >How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-The values of the field for Handler gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put (string) ``num is incremented``, and it put a ``+`` in between the spaces and was attached to the String h. Also the ``num`` variable is incremented by one so we can keep track of the amount.
+The values of the field gets changed based off of the string that I input into the request after the ``/add-message``. In this case I put (string) ``num is incremented``, and it put a ``+`` in between the spaces and was attached to the String h. Also the ``num`` variable is incremented by one so we can keep track of the amount of strings inputted already.
 
 ## PART 2
 
