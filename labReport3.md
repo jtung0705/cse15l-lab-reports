@@ -329,7 +329,7 @@ This command with the ``-s`` lets the file wrap around the terminal to make it a
 
 
 
-That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options. Many commands like these have pretty sophisticated behavior possible – it can take years to be exposed to and learn all of the possible tricks and inner workings.
+>That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options.
 
 
 
