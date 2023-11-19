@@ -114,6 +114,7 @@ https://man7.org/linux/man-pages/man1/less.1.html
 ---
 
 > -x command 1
+
 > https://man7.org/linux/man-pages/man1/less.1.html
 
 ``[cs15lfa23qv@ieng6-202]:technical:155$ less -X 911report/chapter-5.txt``
@@ -190,6 +191,7 @@ bash: s: command not found...
 The command ``-x`` does not clear the terminal when you exit the file, which could be helpful if you need to refer to it back real quick. Maybe I forgot where KSM transferred to and I need to see it in the file.
 
 > -x command 2
+
 > https://man7.org/linux/man-pages/man1/less.1.html
 
 ``[cs15lfa23qv@ieng6-202]:technical:155$ less -X 911report/chapter-5.txt``
@@ -306,6 +308,7 @@ The command ``-x`` does not clear the terminal when you exit the file, which cou
 
 ---
 > -p command 1
+
 > https://man7.org/linux/man-pages/man1/less.1.html
 
 ``[cs15lfa23qv@ieng6-202]:technical:129$ less -p "Ladin" 911report/chapter-2.txt``
@@ -317,18 +320,22 @@ The command ``-x`` does not clear the terminal when you exit the file, which cou
                 "World Islamic Front." A fatwa is normally an interpretation of Islamic law by a
                 respected Islamic authority, but neither Bin Ladin,
 ```
+![Image](Lab3PLadin.png)
 Although I cannot show it in the code block, the command highlighted all instances of the "Ladin" inside the text of the directory of the file i specified. Cut off for convenience.
 Once again cut off for convenience.
 
 
 
 > -p command 2
+
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
 ``[cs15lfa23qv@ieng6-202]:technical:132$ less -p "September" 911report/chapter-1.txt``
 ```
 Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.
 ```
+
+![Image](Lab3PSeptember.png)
 Although I cannot show it in the code block, the command highlighted all instances of the "September" inside the text of the directory of the file i specified. Cut off for convenience.
 Once again cut off for convenience.
 
@@ -348,6 +355,7 @@ Once again cut off for convenience.
 the ``-N``  command line option shows the text of the file with numbers for each line. Good for formatting purposes, for things like LaTeX. Once again, cut off for convenience.
 
 > -N command 1
+
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 `` [cs15lfa23qv@ieng6-202]:technical:135$ less -N 911report/chapter-2.txt`` 
 
@@ -364,6 +372,7 @@ the ``-N``  command line option shows the text of the file with numbers for each
 the ``-N``  command line option shows the text of the file with numbers for each line. Good if you are looking to cite a txt file and need to find which line. Once again, cut off for convenience.
 
 > -N command 2
+
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
 
@@ -389,6 +398,7 @@ This command with the ``-s`` lets the file wrap around the terminal to make it a
 ---
 
 > -S command 1
+
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
 
@@ -404,6 +414,7 @@ This command with the ``-s`` lets the file wrap around the terminal to make it a
 ```
 
 > -S command 2
+
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
 This command with the ``-s`` lets the file wrap around the terminal to make it a little more readable. Can be good if you do not have a big screen or a square computer monitor.
