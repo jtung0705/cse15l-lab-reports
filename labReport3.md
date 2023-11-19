@@ -375,8 +375,11 @@ the ``-N``  command line option shows the text of the file with numbers for each
 
 ---
 
-> https://www.geeksforgeeks.org/less-command-linux-examples/#
 
+
+> -S command 1
+
+> https://www.geeksforgeeks.org/less-command-linux-examples/#
 
 
 ``[cs15lfa23qv@ieng6-202]:technical:144$ less -s 911report/chapter-2.txt ``
@@ -400,7 +403,7 @@ HE FOUNDATION OF THE NEW TERRORISM
 
 This command with the ``-s`` lets the file wrap around the terminal to make it a little more readable. It is wrapping the text about the declaration of war to fit in the terminal.
 
-> -S command 1
+> -S command 2
 
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
@@ -415,11 +418,6 @@ This command with the ``-s`` lets the file wrap around the terminal to make it a
                 occupied undisputed leadership positions atop al Qaeda's organizational structure.
                 Within this structure, al Qaeda's worldwide terrorist operations relied heavily on
 ```
-
-> -S command 2
-
-> https://www.geeksforgeeks.org/less-command-linux-examples/#
-
 This command with the ``-s`` lets the file wrap around the terminal to make it a little more readable. Can be good if you do not have a big screen or a square computer monitor.
 
 ---
