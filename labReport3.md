@@ -71,7 +71,10 @@ at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
 FAILURES!!!
 Tests run: 2, Failures: 1
 ```
+
 ![LabReport3FailPass](LabReport3FailPass.png)
+
+
 >The bug, as the before-and-after code change required to fix it
 
 **BEFORE**
