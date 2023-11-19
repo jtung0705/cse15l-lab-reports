@@ -110,7 +110,6 @@ https://www.geeksforgeeks.org/less-command-linux-examples/#
 
 https://man7.org/linux/man-pages/man1/less.1.html
 
-Horizontal rule:
 
 ---
 
@@ -301,9 +300,11 @@ bash: s: command not found...
                 arrested Abu Hoshar and 15 others and informed Washington.
 [cs15lfa23qv@ieng6-202]:technical:159$
 ```
+
+
 The command ``-x`` does not clear the terminal when you exit the file, which could be helpful if you need to refer to it back real quick. 
 
-
+---
 > -p command 1
 > https://man7.org/linux/man-pages/man1/less.1.html
 
@@ -341,6 +342,8 @@ Once again cut off for convenience.
       5
       6     Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Mi      6 llions of men and women readied themselves for work. Some made their way to the Twin Towers, the signat      6 ure structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia,       6 to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other      6  end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, Pres      6 ident George W. Bush went for an early morning run.
 ```
+
+---
 
 the ``-N``  command line option shows the text of the file with numbers for each line. Good for formatting purposes, for things like LaTeX. Once again, cut off for convenience.
 
@@ -383,6 +386,8 @@ HE FOUNDATION OF THE NEW TERRORISM
 ```
 This command with the ``-s`` lets the file wrap around the terminal to make it a little more readable. It is wrapping the text about the declaration of war to fit in the terminal.
 
+---
+
 > -S command 1
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
@@ -403,6 +408,7 @@ This command with the ``-s`` lets the file wrap around the terminal to make it a
 
 This command with the ``-s`` lets the file wrap around the terminal to make it a little more readable. Can be good if you do not have a big screen or a square computer monitor.
 
+---
 
 
 >That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options.
