@@ -116,7 +116,7 @@ https://man7.org/linux/man-pages/man1/less.1.html
 
 ---
 
-> -x command 1
+### -x command 1
 
 > https://man7.org/linux/man-pages/man1/less.1.html
 
@@ -193,7 +193,7 @@ bash: s: command not found...
 
 The command ``-x`` does not clear the terminal when you exit the file, which could be helpful if you need to refer to it back real quick. Maybe I forgot where KSM transferred to and I need to see it in the file.
 
-> -x command 2
+### -x command 2
 
 > https://man7.org/linux/man-pages/man1/less.1.html
 
@@ -310,7 +310,7 @@ bash: s: command not found...
 The command ``-x`` does not clear the terminal when you exit the file, which could be helpful if you need to refer to it back real quick. 
 
 ---
-> -p command 1
+### -p command 1
 
 > https://man7.org/linux/man-pages/man1/less.1.html
 
@@ -329,7 +329,7 @@ Once again cut off for convenience.
 
 
 
-> -p command 2
+### -p command 2
 
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
@@ -343,7 +343,7 @@ Although I cannot show it in the code block, the command highlighted all instanc
 Once again cut off for convenience.
 
 ---
-> -N command 1
+### -N command 1
 
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
@@ -362,7 +362,7 @@ Once again cut off for convenience.
 
 the ``-N``  command line option shows the text of the file with numbers for each line. Good for formatting purposes, for things like LaTeX. Once again, cut off for convenience.
 
-> -N command 2
+### -N command 2
 
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
@@ -384,7 +384,7 @@ the ``-N``  command line option shows the text of the file with numbers for each
 
 
 
-> -S command 1
+### -S command 1
 
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
@@ -410,7 +410,7 @@ HE FOUNDATION OF THE NEW TERRORISM
 
 This command with the ``-s`` lets the file wrap around the terminal to make it a little more readable. It is wrapping the text about the declaration of war to fit in the terminal.
 
-> -S command 2
+### -S command 2
 
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
