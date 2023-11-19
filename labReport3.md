@@ -25,7 +25,52 @@
 
 >The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
-![LabReport3](LabReport3FailPass.png)
+``` 
+public class ArrayTests{
+    @Test
+    public void testReverseInPlace(input1);
+    int[] input1 = {0};
+    ArrayExamples.reverseInPlace(input1);
+    assertArraysEquals(new int[]{0}, input1);
+
+    @Test
+    public void testReverseInPlace3_7(){
+        int[] input1 = {3,5,6,7};
+        ArrayExamples.reverseInPlace(input1);
+        assertArraysEquals(new int[]{7,6,5 , 3}, input1); 
+    }
+} // failure inducing as a JUnit testss
+```
+``` 
+﻿
+justj@jefftop MINGW64 ~/Documents/GitHub/lab3 (main)
+$ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
+justj@jefftop MINGW64 ~/Documents/GitHub/lab3 (main)
+$ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore Array Tests JUnit version 4.13.2
+..E
+Time: 0.01
+There was 1 failure:
+1) testReverseInPlace3_7(Array Tests)
+arrays first differed at element [2]; expected: <5> but was:<6>
+at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+at
+org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+at org.junit.Assert.assertArrayEquals(Assert.java:418)
+at org.junit.Assert.assertArrayEquals(Assert.java:429)
+at ArrayTests.testReverseInPlace3_7(ArrayTests.java:15)
+...30 trimmed
+Caused by: java.lang.AssertionError: expected: <5> but was:<6>
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.failNotEquals(Assert.java:835)
+at org.junit.Assert.assertEquals(Assert.java:120)
+at org.junit.Assert.assertEquals(Assert.java:146)
+at
+org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+... 36 more
+FAILURES!!!
+Tests run: 2, Failures: 1
+```
 
 >The bug, as the before-and-after code change required to fix it
 
@@ -65,7 +110,12 @@ https://www.geeksforgeeks.org/less-command-linux-examples/#
 
 https://man7.org/linux/man-pages/man1/less.1.html
 
+Horizontal rule:
 
+---
+
+> -x command 1
+> https://man7.org/linux/man-pages/man1/less.1.html
 
 ``[cs15lfa23qv@ieng6-202]:technical:155$ less -X 911report/chapter-5.txt``
 ```
@@ -139,6 +189,9 @@ bash: s: command not found...
 ```
 
 The command ``-x`` does not clear the terminal when you exit the file, which could be helpful if you need to refer to it back real quick. Maybe I forgot where KSM transferred to and I need to see it in the file.
+
+> -x command 2
+> https://man7.org/linux/man-pages/man1/less.1.html
 
 ``[cs15lfa23qv@ieng6-202]:technical:155$ less -X 911report/chapter-5.txt``
 ```
@@ -250,6 +303,10 @@ bash: s: command not found...
 ```
 The command ``-x`` does not clear the terminal when you exit the file, which could be helpful if you need to refer to it back real quick. 
 
+
+> -p command 1
+> https://man7.org/linux/man-pages/man1/less.1.html
+
 ``[cs15lfa23qv@ieng6-202]:technical:129$ less -p "Ladin" 911report/chapter-2.txt``
 
 ```
@@ -261,6 +318,11 @@ The command ``-x`` does not clear the terminal when you exit the file, which cou
 ```
 Although I cannot show it in the code block, the command highlighted all instances of the "Ladin" inside the text of the directory of the file i specified. Cut off for convenience.
 Once again cut off for convenience.
+
+
+
+> -p command 2
+> https://www.geeksforgeeks.org/less-command-linux-examples/#
 
 ``[cs15lfa23qv@ieng6-202]:technical:132$ less -p "September" 911report/chapter-1.txt``
 ```
@@ -282,6 +344,8 @@ Once again cut off for convenience.
 
 the ``-N``  command line option shows the text of the file with numbers for each line. Good for formatting purposes, for things like LaTeX. Once again, cut off for convenience.
 
+> -N command 1
+> https://www.geeksforgeeks.org/less-command-linux-examples/#
 `` [cs15lfa23qv@ieng6-202]:technical:135$ less -N 911report/chapter-2.txt`` 
 
 ``` 
@@ -295,6 +359,10 @@ the ``-N``  command line option shows the text of the file with numbers for each
       8                 newspaper in London to publish what they termed a fatwa issued in the name of a  
 ```
 the ``-N``  command line option shows the text of the file with numbers for each line. Good if you are looking to cite a txt file and need to find which line. Once again, cut off for convenience.
+
+> -N command 2
+> https://www.geeksforgeeks.org/less-command-linux-examples/#
+
 
 ``[cs15lfa23qv@ieng6-202]:technical:144$ less -s 911report/chapter-2.txt ``
 ```
@@ -315,6 +383,10 @@ HE FOUNDATION OF THE NEW TERRORISM
 ```
 This command with the ``-s`` lets the file wrap around the terminal to make it a little more readable. It is wrapping the text about the declaration of war to fit in the terminal.
 
+> -S command 1
+> https://www.geeksforgeeks.org/less-command-linux-examples/#
+
+
 `` [cs15lfa23qv@ieng6-202]:technical:146$ less -s 911report/chapter-5.txt``
 
 ```
@@ -325,6 +397,10 @@ This command with the ``-s`` lets the file wrap around the terminal to make it a
                 occupied undisputed leadership positions atop al Qaeda's organizational structure.
                 Within this structure, al Qaeda's worldwide terrorist operations relied heavily on
 ```
+
+> -S command 2
+> https://www.geeksforgeeks.org/less-command-linux-examples/#
+
 This command with the ``-s`` lets the file wrap around the terminal to make it a little more readable. Can be good if you do not have a big screen or a square computer monitor.
 
 
