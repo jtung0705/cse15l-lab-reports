@@ -373,7 +373,7 @@ the ``-N``  command line option shows the text of the file with numbers for each
 ```
 the ``-N``  command line option shows the text of the file with numbers for each line. Good if you are looking to cite a txt file and need to find which line. Once again, cut off for convenience.
 
-
+---
 
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
@@ -397,7 +397,6 @@ HE FOUNDATION OF THE NEW TERRORISM
                 these themes.
 ```
 
----
 
 This command with the ``-s`` lets the file wrap around the terminal to make it a little more readable. It is wrapping the text about the declaration of war to fit in the terminal.
 
