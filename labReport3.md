@@ -339,6 +339,9 @@ Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the easter
 Although I cannot show it in the code block, the command highlighted all instances of the "September" inside the text of the directory of the file i specified. Cut off for convenience.
 Once again cut off for convenience.
 
+---
+> -N command 1
+
 ``[cs15lfa23qv@ieng6-202]:technical:135$ less -N 911report/chapter-1.txt ``
 
 ```
@@ -350,11 +353,10 @@ Once again cut off for convenience.
       6     Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Mi      6 llions of men and women readied themselves for work. Some made their way to the Twin Towers, the signat      6 ure structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia,       6 to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other      6  end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, Pres      6 ident George W. Bush went for an early morning run.
 ```
 
----
 
 the ``-N``  command line option shows the text of the file with numbers for each line. Good for formatting purposes, for things like LaTeX. Once again, cut off for convenience.
 
-> -N command 1
+> -N command 2
 
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 `` [cs15lfa23qv@ieng6-202]:technical:135$ less -N 911report/chapter-2.txt`` 
@@ -371,7 +373,7 @@ the ``-N``  command line option shows the text of the file with numbers for each
 ```
 the ``-N``  command line option shows the text of the file with numbers for each line. Good if you are looking to cite a txt file and need to find which line. Once again, cut off for convenience.
 
-> -N command 2
+
 
 > https://www.geeksforgeeks.org/less-command-linux-examples/#
 
