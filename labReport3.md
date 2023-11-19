@@ -342,6 +342,9 @@ Once again cut off for convenience.
 ---
 > -N command 1
 
+> https://www.geeksforgeeks.org/less-command-linux-examples/#
+
+
 ``[cs15lfa23qv@ieng6-202]:technical:135$ less -N 911report/chapter-1.txt ``
 
 ```
