@@ -6,7 +6,7 @@ Keys pressed: ``<up><enter>``
 
 The ``ssh cs15lfa23qv@ieng6.ucsd.edu`` command was up one in the history, so I pressed up and enter to obtain and run it.
 
-##**STEP 5**
+## **STEP 5**
 ---
 ![image](LabReport4Step5.png)
 
