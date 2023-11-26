@@ -55,13 +55,32 @@ Once done, I typed ``:wq`` to write it and quit so it would save.
 ## **STEP 8**
 ---
 ![image](LabReport4Step8.png)
-Keys pressed: `` ``
+Keys pressed: ``<up><up><Enter>``
 
-The ``                          `` command was there, so I pressed enter to run it.
+The ``bash test.sh`` command was already there from the first time I executed it, so I pressed ``<up>`` twice to get the command and then pressed ``<enter>`` to run it.
 
 ## **STEP 9**
 ---
-![image](LabReport4Step9.png)
-Keys pressed: `` ``
+![image](LabReport4Step9_1.png)
+![image](LabReport4Step9_2.png)
+![image](LabReport4Step9_3.png)
 
-The ``                          `` command was there, so I pressed enter to run it.
+Keys pressed: ``git add .``
+
+Keys pressed: ``<enter>``
+
+Keys pressed: ``git commit``
+
+Keys pressed: ``<enter>``
+
+Keys pressed: ``<down><down><down><down><down><down><down><down><down><down><down>``
+
+Keys pressed: ``i``
+
+Keys pressed: ``Commit.``
+
+Keys pressed: ``<esc>``
+
+Keys pressed: ``:wq``
+
+The ``git add .`` command was so I could add all files in current and subdirectories to the staging area and I pressed enter to run it. Then I had to ``git commit`` to make sure it actually got pushed to the repository, and pressed ``<enter>`` to execute it. With that, I had to make a commit message so I scrolled down using the 11 ``<down>``s and pressed ``i`` for insert mode. Then I typed ``Commit.`` to type a commit message, and exited it with ``<esc>`` key. Then I typed ``:wq`` so I would be able to exit and save my commit message. After that, it displayed a message showing the new commit that just happened, and who commited.
