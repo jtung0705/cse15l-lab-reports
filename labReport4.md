@@ -56,6 +56,7 @@ Once done, I typed ``:wq`` to write it and quit so it would save.
 ## **STEP 8**
 ---
 ![image](LabReport4Step8.png)
+
 Keys pressed: ``<up><up><Enter>``
 
 The ``bash test.sh`` command was already there from the first time I executed it, so I pressed ``<up>`` twice to get the command and then pressed ``<enter>`` to run it.
