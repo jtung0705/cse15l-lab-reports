@@ -10,8 +10,10 @@ The ``ssh cs15lfa23qv@ieng6.ucsd.edu`` command was up one in the history, so I p
 ---
 ![image](LabReport4Step5.png)
 
-Keys pressed: `` <Ctrl>  R``
-Keys pressed:`` git``
+Keys pressed: ``<Ctrl> R``
+
+Keys pressed:``git``
+
 Keys pressed:``<enter>``
 
 The ``git clone git@github.com:jtung0705/lab7.git`` command was there after I searched for ``git`` inside the commands, so I pressed enter to run it.
@@ -21,6 +23,7 @@ The ``git clone git@github.com:jtung0705/lab7.git`` command was there after I se
 ![image](LabReport4Step6.png)
 
 Keys pressed: ``cd lab7``
+
 Keys pressed: ``bash test.sh``
 
 I was in the home directory, so I had to change to the ``lab7`` directory.
@@ -33,10 +36,15 @@ It then displayed the tests that executed.
 
 ![image](LabReport4Step7_2.png)
 Keys pressed: ``vim ListExamples.java``
+
 Keys pressed: ``<up><up><up><up><up><up>``
+
 Keys pressed: ``<right><right><right><right><right><right><right><right><right><right><right><right><i>``
+
 Keys pressed: ``<backspace><2>``
+
 Keys pressed: ``<esc>``
+
 Keys pressed: ``:wq``
 
 The ``vim ListExamples.java`` command was typed so I could see the text of ``ListExamples.java``, so I pressed enter to run it.
