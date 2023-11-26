@@ -1,4 +1,5 @@
 ## **STEP 4**
+---
 ![image](LabReport4Step4.png)
 Keys pressed: ``<up><enter>``
 
