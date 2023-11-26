@@ -35,6 +35,7 @@ It then displayed the tests that executed.
 ![image](LabReport4Step7_1.png)
 
 ![image](LabReport4Step7_2.png)
+
 Keys pressed: ``vim ListExamples.java``
 
 Keys pressed: ``<up><up><up><up><up><up>``
