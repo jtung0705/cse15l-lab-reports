@@ -16,7 +16,7 @@ Keys pressed:``git``
 
 Keys pressed:``<enter>``
 
-The ``git clone git@github.com:jtung0705/lab7.git`` command was there after I searched for ``git`` inside the commands, so I pressed enter to run it.
+The ``git clone git@github.com:jtung0705/lab7.git`` command was there after I searched for ``git`` using ``<Ctrl>`` and ``R``, so I pressed enter to run it.
 
 ## **STEP 6**
 ---
