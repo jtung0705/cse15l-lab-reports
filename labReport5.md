@@ -1,20 +1,25 @@
 # PART 1
-/*
-The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a post)
-*/
+
+> The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a post)
 
 **Student**: Hello, I am having trouble on this part of the code. I think the bug might be where it adds? 
 
 ![Image](Lab5_p1.png) 
 ![Image2](Lab5_p2.png)
 
+>A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
+
 **TA:**: Hello, you are close but check again on where you're adding in the second while loop. Use ``vim`` to edit and recompile after. That may help. Good luck!
 
-**Student**: Wow, I got the information that the second while loop contained ``index1`` instead of ``index2``. I edited it to be ``index2`` and now it works. Thank you so much TA who was so awesome to give a 1/3 on this lab report!
+>Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
+
+**Student**: Wow, I got the information that the second while loop contained ``index1`` instead of ``index2``, so it would keep adding to the wrong array. I edited it to be ``index2`` and now it works. Thank you so much TA who was so awesome to give a 1/3 on this lab report!
 
 ![Image3](Lab5_p3.png)
 
-**The file & directory structure needed**
+>At the end, all the information needed about the setup including:
+
+> **The file & directory structure needed**
 
 home
 
@@ -32,7 +37,7 @@ home
 
 ------------junit-4.13.2.jar
 
-**The contents of each file before fixing the bug**
+> **The contents of each file before fixing the bug**
 
 ``ListExamplesTest.java`` contains just a bunch of random tests to do.
 ```
@@ -115,11 +120,11 @@ class ListExamples {
 ```
 
 
-**The full command line (or lines) you ran to trigger the bug**
+> **The full command line (or lines) you ran to trigger the bug**
 
 ``bash test.sh``
 
-**A description of what to edit to fix the bug**
+> **A description of what to edit to fix the bug**
 
 Change the ``index1`` in the ``ListExamples.java`` in
 
@@ -142,3 +147,4 @@ to ``index2``, like below:
 
 # PART 2
 
+I mostly learned about Git in the second half of this quarter, which I thought was interesting because you always see it on internship oppurtunities, but I thought it was the same as GitHub. I'm pretty glad I learend about it because i know that it's important if you want to get into Software Engineering, but I feel like most schools do not teach it and you learn it on the workplace.
