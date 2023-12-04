@@ -65,7 +65,7 @@ public class ListExamplesTests {
 }
 ```
 
-``ListExamples.java`` contains files for the implementation to sort the list.
+``ListExamples.java`` contains the implementation to sort the list.
 
 ```
 import java.util.ArrayList;
