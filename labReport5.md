@@ -119,6 +119,14 @@ class ListExamples {
 }
 ```
 
+``test.sh`` contains a testing script of the files to be tested
+
+``` 
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
+
+The ``lib`` directory has two jar files used to test the files and return the errors that went wrong.
 
 > **The full command line (or lines) you ran to trigger the bug**
 
