@@ -17,12 +17,19 @@ The original post from a student with a screenshot showing a symptom and a descr
 **The file & directory structure needed**
 
 home
+
 --lab7
+
 ---ListExamples.java
+
 ---ListExamplesTests.java
+
 ---test.sh
+
 ---lib
+
 ----hamcrest-core-1.3.jar
+
 ----junit-4.13.2.jar
 
 **The contents of each file before fixing the bug**
