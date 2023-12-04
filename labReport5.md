@@ -8,7 +8,7 @@ The original post from a student with a screenshot showing a symptom and a descr
 ![Image](Lab5_p1.png) 
 ![Image2](Lab5_p2.png)
 
-**TA:**: Hello, you are close but check again on where you're adding in the second while loop. Use ``vim`` to edit and recompile. That may help. Good luck!
+**TA:**: Hello, you are close but check again on where you're adding in the second while loop. Use ``vim`` to edit and recompile after. That may help. Good luck!
 
 **Student**: Wow, I got the information that the second while loop contained ``index1`` instead of ``index2``. I edited it to be ``index2`` and now it works. Thank you so much TA who was so awesome to give a 1/3 on this lab report!
 
